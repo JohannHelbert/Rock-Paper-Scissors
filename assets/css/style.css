@@ -43,6 +43,8 @@ footer {
 
 #messages {
     height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
 }
 
 .player {
@@ -63,4 +65,9 @@ footer {
 
 #computer-image {
     width: 75%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
 }
