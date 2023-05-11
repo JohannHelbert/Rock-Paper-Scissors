@@ -76,3 +76,9 @@ p {
 .computer h3 {
     width: 140px;
 }
+
+@media screen and (max-width: 320px) {
+    footer {
+        bottom: -135px;
+    }
+}
