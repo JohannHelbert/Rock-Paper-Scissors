@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
 html {
     min-height: 100%;
     position: relative;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: oswald;
     margin: 0;
+    background-color: #fed83a;
 }
 
 header {
@@ -43,12 +46,11 @@ footer {
 
 #messages {
     height: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: oswald;
     font-weight: 800;
 }
 
 .player {
-    background-color: lightblue;
     float: left;
     width: 45%;
 }
@@ -58,7 +60,6 @@ footer {
 }
 
 .computer {
-    background-color: lightcoral;
     float: right;
     width: 45%;
 }
@@ -68,6 +69,10 @@ footer {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: oswald;
     font-weight: 800;
+}
+
+.computer h3 {
+    width: 140px;
 }
