@@ -26,4 +26,32 @@ function playGame(playerChoice) {
     let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
     updateScores(result);
+
+    checkWinner(computerChoice, playerChoice); 
 }
+
+function checkWinner(computerChoice, playerChoice) {
+    if (computerChoice === playerChoice) {
+      return "draw";
+    } else if (
+      (computerChoice === "rock" && playerChoice === "scissors") ||
+      (computerChoice === "scissors" && playerChoice === "paper") ||
+      (computerChoice === "paper" && playerChoice === "rock")
+    ) {
+      return "computer";
+    } else {
+      return "player";
+    }
+  }
+
+  function updateScores(result) {
+    if (result === "player") {
+      playerScore.innerText = parseInt(playerScore.innerText) + 1;
+      messages.innerText = "You won!";
+    } else if (result === "computer") {
+      computerScore.innerText = parseInt(computerScore.innerText) + 1;
+      messages.innerText = "Computer won!";
+    } else {
+      messages.innerText = "It's a draw!";
+    }
+  }
