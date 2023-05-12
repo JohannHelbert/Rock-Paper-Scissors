@@ -1,108 +1,340 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Rock Paper Scissors**
 
-Welcome USER_NAME,
+#### Rock paper scissors (also known by other orderings of the three items, with "rock" sometimes being called "stone," or as Rochambeau, roshambo, or ro-sham-bo) is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<img src="assets/images/Bildschirmfoto 2023-05-11 um 18.38.10.png">
 
-`python3 -m http.server`
+<br>
 
-A blue button should appear to click: _Make Public_,
+## User Experience (UX)
 
-Another blue button should appear to click: _Open Browser_.
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Initial Discussion
 
-A blue button should appear to click: _Make Public_,
+<br>
 
-Another blue button should appear to click: _Open Browser_.
+Users of this game will learn the rules of Rock Paper Scissors so they can apply it to decison making with others in their lives. This site will be
+targeted towards adults and children alike as a simple app to learn, practice and have fun with.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+<br>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<br>
 
-------
+#### Client Goals
 
-## Release History
+<br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* To be able to view the site on a range of device sizes.
+* To make it easy for potential viewers to find out what the Rock Paper Scissors Game is and how to play it.
+* To allow people to have fun and play the Game.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<br>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### First Time Visitor Goals
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* I want to find out what is Rock Paper Scissors and how to play the Game.
+* I want to be able to navigate the site easily to find information.
+* I want to be able to find the scores , who is the Winner, the rules how to play.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Returning Visitor Goals
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<br>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* I want to find fun every time when if I visit this Site.
+* I want to be able to easily understand the rules and play the Game.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Frequent Visitor Goals
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<br>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* I want to be able to have fun every time if I visit this site.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<br>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- - -
 
-------
+<br>
 
-## FAQ about the uptime script
+## Design
 
-**Why have you added this script?**
+### Colour Scheme
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Colors were used :   #fed83a, #fff, #000
 
-**How will this affect me?**
+The website use  colors that are often used in the Rock Paper Scissors site. The colors were created using the colors palette from css.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Typography
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Google Fonts was used for the following fonts:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* oswald were used for the site. It is a serif font. 
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Imagery
 
-**Can I opt out?**
+The Game images were used from https://freesvg.org.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Wireframes
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Wireframes were not used,
 
-**Anything more?**
+<br>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Features
 
----
+<br>
 
-Happy coding!
+## Existing Features
+
+<br>
+
+## Header
+
+<br>
+
+* Featured on the top of the page, the header shows the game name: Rock Paper Scissors in a font that is playful and clearly contrasts with the background.
+
+<br>
+
+* This header tells the visitors what game they are playing.
+
+<br>
+
+<img src="assets/images/header.png">
+
+<br>
+
+#### The Game Options
+
+<br>
+
+* The Game include a instruction and a choice of options like Rock, Papper or Scissors to choose from to play.
+* This section provides interactive buttons that the user can click to make their choice.
+* How to play this Game : in the bottom of the site is a instruction
+
+<br>
+
+<img src="assets/images/game-section-buttons.png">
+
+
+## The Game Results
+
+<br>
+
+- When the user clicks an option, the image relating to their choice is shown on their side of the game board.
+- The JavaScript code chooses a random option for the Computer player, displays the image relating to the computer's choice, and then
+  determines who is the winner.
+- The winner is announced to the user under the options button, and the score is updated for either the user or the computer,
+  depending on who won.
+- The results and score are clear to the user, making the game easy to play, understand who won, and what the score is.
+
+<br>
+
+<img src="assets/images/game-section.png">
+
+<br>
+
+## The Footer
+<br>
+
+- The footer section includes the rules of Rock Paper Scissors.
+<br>
+
+- The footer is valuable to the user because it clearly explains how the game is played.
+<br>
+
+<img src="assets/images/footer.png">
+
+<br>
+
+### Features Left to Implement
+- When there is time, i would include alert message or a timer when the game is over, or a max score.
+
+<br>
+
+### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring buttons are working, and the scores working well aswell.
+
+<br>
+
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+
+codeanywhere - For version control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+<br>
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Rock Paper Scissors.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+To fork the Rock Paper Scissors repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, JohannHelbert/Rock-Paper-Scissors.
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the Rock Paper Scissors repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, JohannHelbert/Rock-Paper-Scissors.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+
+# Testing
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop:
+  * Macbook Pro 2015 13 inch screen
+* Mobile Devices:
+  * iPhone 12 pro.
+  * iPhone xr.
+  * google pixel 5.
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Firefox
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Header` |
+|  |  |  |  |  |
+| Rock Paper Scissors Title | Is the title legible?. | Reading | legible. | Pass |
+| `Footer` |
+|  |  |  |  |  |
+| Game Rules | Are the rules understandable?. | Reading  | understandable. | Pass |
+| `Game Section` |
+|   |   |   |   |
+| Game function | The Game working well? | Click buttons | all functions working | Pass |
+<br>
+
+### Bugs/issues
+
+<br>
+
+## Solved bugs
+
+- When I deployed my project to GitHub Pages I discovered my game was broken, the links to the other files (CSS,JS,images etc) did not work.
+- I discovered this was because I had used absolute file paths.
+- Removing the starting / fixed the problem.
+
+## Validator Testing 
+
+<br>
+
+### HTML
+
+<br>
+
+- No errors were returned when passing through the official W3C validator
+
+<br>
+
+<img src="assets/images/Testing/wc3.png">
+
+<br>
+
+### CSS
+
+<br>
+
+- No errors were found when passing through the official (Jigsaw) validator
+
+<br>
+
+<img src="assets/images/Testing/jiggsaw.png">
+
+<br>
+
+### Javascript
+
+<br>
+
+- Warnings were found but they not really errors and still pass
+
+<br>
+
+### Lighthouse
+
+<br>
+
+<img src="assets/images/Testing/lighthouse.png">
+
+# Credits
+
+<br>
+
+## Content
+<br>
+
+- The text and Code were used from the Code Institute Portfolio Project Scope Video https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/ for the footer , game section and header.
+<br>
+
+- The Javascript code for the function "Score", "The winner" how to do this was used from the example from this link https://www.w3schools.com/graphics/game_score.asp
+
+- For the README.md i used the example from https://github.com/kera-cudmore/Bully-Book-Club/blob/main/docs/testing/w3c/w3cindex.png and https://github.com/kera-cudmore/BookWorm/blob/main/TESTING.md#BUGS and also the example from the project 2 Portfolio Project Scope Full Sample README.
+
+<br>
+
+## Media
+<br>
+
+- The pictures was taken from https://freesvg.org
+<br>
