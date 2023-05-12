@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 html {
     min-height: 100%;
     position: relative;
 }
+
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
 
 body {
     font-family: oswald;
@@ -11,10 +15,14 @@ body {
     background-color: #fed83a;
 }
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 header {
     text-align: center;
     height: 50px;
 }
+
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
 
 footer {
     position: absolute;
@@ -29,6 +37,8 @@ footer {
     background-color: #000;
 }
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 .game-area {
     width: 75%;
     margin-left: auto;
@@ -37,6 +47,8 @@ footer {
     text-align: center;
 }
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 .control {
     display: inline-block;
     margin: 2px;
@@ -44,25 +56,35 @@ footer {
     height: 40px;
 }
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 #messages {
     height: 20px;
     font-family: oswald;
     font-weight: 800;
 }
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 .player {
     float: left;
     width: 45%;
 }
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 #player-image {
     width: 75%;
 }
+
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
 
 .computer {
     float: right;
     width: 45%;
 }
+
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
 
 #computer-image {
     width: 75%;

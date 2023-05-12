@@ -1,3 +1,5 @@
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 const buttons = document.getElementsByClassName("control");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
@@ -6,12 +8,16 @@ const computerImage = document.getElementById("computer-image");
 const messages = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
 
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
+
 for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         playGame(playerChoice);
     });
 }
+
+/* This code was taken from Portfolio 2: Project Submission / Portfolio Project Scope Video https://shorturl.at/puM46*/
 
 function playGame(playerChoice) {
 
@@ -29,6 +35,8 @@ function playGame(playerChoice) {
 
     checkWinner(computerChoice, playerChoice); 
 }
+
+/* The Javascript code for the function "Score", "The winner" how to do this was used from the example from this link https://www.w3schools.com/graphics/game_score.asp */
 
 function checkWinner(computerChoice, playerChoice) {
     if (computerChoice === playerChoice) {

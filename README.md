@@ -272,6 +272,8 @@ Each device tested the site using the following browsers:
 - There was a space by the image links and a (1).
 - Removing the space and (1) fixed the problem
 
+<br>
+
 ## Solved bugs
 
 - When I deployed my project to GitHub Pages I discovered my game was broken, the links to the other files (CSS,JS,images etc) did not work.
@@ -330,6 +332,7 @@ Each device tested the site using the following browsers:
 <br>
 
 - The text and Code were used from the Code Institute Portfolio Project Scope Video https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/ for the footer , game section and header.
+- The reason why i used a lot of external code is , because im struggling with javascript , and the deadline is to short for me.
 <br>
 
 - The Javascript code for the function "Score", "The winner" how to do this was used from the example from this link https://www.w3schools.com/graphics/game_score.asp
