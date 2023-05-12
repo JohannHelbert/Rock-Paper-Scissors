@@ -7,7 +7,7 @@
 
 <br>
 
-<img src="assets/images/Bildschirmfoto 2023-05-11 um 18.38.10.png">
+<img src="assets/images/I am responsive.png">
 
 <br>
 
