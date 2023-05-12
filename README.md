@@ -269,6 +269,9 @@ Each device tested the site using the following browsers:
 
 <br>
 
+- There was a space by the image links and a (1).
+- Removing the space and (1) fixed the problem
+
 ## Solved bugs
 
 - When I deployed my project to GitHub Pages I discovered my game was broken, the links to the other files (CSS,JS,images etc) did not work.
@@ -310,6 +313,8 @@ Each device tested the site using the following browsers:
 - Warnings were found but they not really errors and still pass
 
 <br>
+
+<img src="assets/images/Testing/jshint.png">
 
 ### Lighthouse
 
